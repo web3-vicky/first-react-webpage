@@ -1,6 +1,25 @@
-import Header from "./Header"
-import Footer from "./Footer"
+function Header() {
+    return (
+        <header>
+            <nav className="nav">
+                <img src="./react-logo.jpg" alt="React Logo" height="80px" width="120px" />
+                <ul className="nav-items">
+                    <li>Courses</li>
+                    <li>Pricing</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+        </header>
+    )
+}
 
+function Footer() {
+    return (
+        <footer>
+            <small>© 2021 Ziroll development. All rights reserved.</small>
+        </footer>
+    )
+}
 
 function MainContent() {
     return(
