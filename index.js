@@ -1,1 +1,12 @@
-ReactDOM.render(<h1>Hello guys</h1>, document.getElementById("root") )
+function customCode() {
+    return( 
+    <div>
+        <h1>Navigation pane</h1>
+    </div> )
+}
+
+
+
+
+ReactDOM.render(<customCode />,
+ document.getElementById("root") )
