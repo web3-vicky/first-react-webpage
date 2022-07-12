@@ -1,7 +1,25 @@
 .nav {
     display: flex;
-    justify-content: space-between; 
     align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+nav > h3 {
+    margin-right: auto;
+    color: rgb(21, 143, 220);
+}
+
+nav > h4 {
+    margin-left: auto;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    background-color: #282D35;
+    color: #fff;
 }
 
 .nav-items {
@@ -14,7 +32,14 @@
 }
 
 .MainContent {
-    list-style:lower;
+    list-style: circle;
+    list-style-position:inside;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
+ 
 

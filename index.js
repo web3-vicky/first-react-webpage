@@ -5,14 +5,11 @@ function Header() {
         <header>
             <nav className="nav">
                         <img src="./react-logo.jpg" alt="React Logo" height="80px" width="120px" />
-                        <ul className="nav-items">
-                            <li>Courses</li>
-                            <li>Pricing</li>
-                            <li>About</li>
-                        </ul>
-                    </nav>
-                </header>
-            )
+                        <h3>ReactFacts</h3>
+                        <h4>React Course - Project 1</h4>
+                </nav>
+            </header>
+        )
 }
 
 function Footer() {
