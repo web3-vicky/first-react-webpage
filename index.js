@@ -48,5 +48,3 @@ function page() {
 
 ReactDOM.render(page(), document.getElementById("root"))
 
-
-
