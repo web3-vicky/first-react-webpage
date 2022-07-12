@@ -1,6 +1,7 @@
-const navbar = (
-    <div>
-        <img src="C:/Users/Vignesh Murugan/first react webpage/first-react-webpage/react-logo.jpg" alt="React Logo" height="200px" width="400px" />
+function page() {
+    return (
+        <div>
+        <img src="./react-logo.jpg" alt="React Logo" height="80px" width="120px" />
         <h1>Fun facts about React</h1>
         <ul>
             <li>Was first released in 2013</li>
@@ -10,6 +11,10 @@ const navbar = (
             <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
     </div>
-)
+    )
+}
 
-ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.render(page(), document.getElementById("root"))
+
+
+
