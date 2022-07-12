@@ -8,5 +8,4 @@ function customCode() {
 
 
 
-ReactDOM.render(<customCode />,
- document.getElementById("root") )
+ReactDOM.render(<customCode />, document.getElementById("root") )
