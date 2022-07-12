@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -34,7 +38,7 @@ body {
 
 .MainContent-list {
     padding: 10px 2px;
-    list-style: circle;
+    list-style: cross-fade();
     list-style-position:inside;
     font-size:20px
 }
@@ -45,9 +49,11 @@ body {
     padding-block: 8px;
 }
 
-* {
-    box-sizing: border-box;
+.MainContent-list > li::marker {
+    font-size: 2rem;
+    color:#61DAFB;
 }
+
 
 Footer {
     padding-top: 50px;

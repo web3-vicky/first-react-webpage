@@ -22,7 +22,7 @@ function Footer() {
 
 function MainContent() {
     return(
-        <div>
+        <div className="Main">
             <h1 className="MainContent-title">Fun facts about React</h1>
             <ul className="MainContent-list">
                 <li>Was first released in 2013</li>
