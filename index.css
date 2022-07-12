@@ -26,13 +26,23 @@ body {
     font-family: Inter, sans-serif;
 }
 
+.MainContent-title {
+    padding: 12px 5px;
+    letter-spacing: 0.01em;
+
+}
+
 .MainContent-list {
     padding: 10px 2px;
     list-style: circle;
     list-style-position:inside;
     font-size:20px
+}
 
-
+.MainContent-list > li {
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    padding-block: 8px;
 }
 
 * {

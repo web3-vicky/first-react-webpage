@@ -15,7 +15,7 @@ function Header() {
 function Footer() {
     return (
         <footer className="Footer">
-            <small>© 2021 Ziroll development. All rights reserved.</small>
+            <small>© 2022 Web3Vicky development. All rights reserved.</small>
         </footer>
     )
 }
