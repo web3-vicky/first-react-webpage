@@ -1,1 +1,20 @@
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 20px;
+}
+
+.MainContent {
+    list-style:lower;
+}
+
 
