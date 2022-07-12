@@ -5,8 +5,8 @@ function Header() {
         <header>
             <nav className="nav">
                         <img src="./react-logo.jpg" alt="React Logo" height="80px" width="120px" />
-                        <h3>ReactFacts</h3>
-                        <h4>React Course - Project 1</h4>
+                        <h3 className="nav-title">ReactFacts</h3>
+                        <h4 className="nav-bars">React Course - Project 1</h4>
                 </nav>
             </header>
         )
@@ -14,7 +14,7 @@ function Header() {
 
 function Footer() {
     return (
-        <footer>
+        <footer className="Footer">
             <small>© 2021 Ziroll development. All rights reserved.</small>
         </footer>
     )
@@ -23,8 +23,8 @@ function Footer() {
 function MainContent() {
     return(
         <div>
-            <h1>Fun facts about React</h1>
-            <ul className="MainContent">
+            <h1 className="MainContent-title">Fun facts about React</h1>
+            <ul className="MainContent-list">
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 100K stars on GitHub</li>
